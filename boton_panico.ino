@@ -2,8 +2,6 @@
 #include <ESP8266WiFi.h>
 #include <WifiLocation.h>
 
-
-
 const char* googleApiKey = "AIzaSyCl-Mp8VJ-Kdiogb3JKULV9bI3PqhmAmBE";
 const char* ssid = "Telefono monky";
 const char* password = "majchegd01";
@@ -13,12 +11,9 @@ String longitud = "";
 String presicion ="";
 
 char server[] = "mail.smtp2go.com"; // The SMTP Server 
-
 WifiLocation location(googleApiKey);
 WiFiClient espClient;
 //PubSubClient client(espClient); 
-
-
 
 void setup()
   {
